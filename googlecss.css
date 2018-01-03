@@ -1,0 +1,123 @@
+html {
+  font-family: Arial;
+  font-size: 13px;
+}
+
+header a {
+  position: absolute;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 160px;
+  margin-bottom: 50px;
+}
+
+.search {
+  position: absolute;
+  z-index: 2;
+  left: 401px;
+  top: 326px;
+
+}
+
+.searchbar {
+  border-width: .5px;
+  border-color: #dedede;
+  box-shadow: 2px 2px #f1f1f1;
+  width: 560px;
+  height: 30px;
+}
+.searchbar:hover{
+  box-shadow: 1px 2px black;
+}
+
+.button {
+  margin-top: 75px;
+  text-align: center;
+  -webkit-appearance: none;
+}
+
+a:link, a:visited{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f2f2f2;
+  margin-top: 50px;
+  height: 50px;
+}
+
+footer a {
+  position: absolute;
+}
+
+#about {
+  top: 25px;
+  left: 25px;
+}
+
+#store {
+  top:25px;
+  left: 80px;
+}
+
+#gmail {
+  top: 25px;
+  right: 250px;
+}
+
+#images {
+  top: 25px;
+  right: 190px;
+}
+
+#notif {
+  top: 25px;
+  right: 105px;
+}
+
+#user {
+  top: 25px;
+  right: 60px;
+}
+
+#ad {
+  left: 30px;
+  top: 17px;
+}
+
+#bus {
+  left: 120px;
+  top: 17px;
+}
+
+#priv {
+  right: 165px;
+  top: 17px;
+}
+
+#term {
+  right: 100px;
+  top: 17px;
+}
+
+#settings {
+  right: 25px;
+  top:17px;
+}
+
+#mic {
+  position: absolute;
+  left: 530px;
+  top: 5px;
+}
